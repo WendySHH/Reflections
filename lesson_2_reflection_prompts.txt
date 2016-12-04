@@ -6,14 +6,17 @@ What value do you think it offers?
 Staging is temporary and doesn’t commit the file.  I’m really not sure why this is good.
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+The staging area allows you to see the change before you commit. It’s a way of double checking.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches help when you want to work on changes without effecting the main project.  Also, it’s a way of working with something in a different version so the base of the project remains the same but there may be multiple versions. Work for yourself to see different features.
 
 How do the diagrams help you visualize the branch structure?
+Seeing it helps keep track of the various changes and lets you know which are connected and where and which are not connected.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The merge should work but there was a conflict.  It should blend the two projects. The diagram shows the main branch merging with the branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+manually? Automatic may cause you to have to go back and deal with errors.
